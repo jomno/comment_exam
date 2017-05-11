@@ -1,8 +1,8 @@
-#멋사 5기 동대 5주차 예제 코드
+# 멋사 5기 동대 5주차 예제 코드
 
 멋사화이팅
 
-##bash 명령어 코드들
+## bash 명령어 코드들
 
 컨트롤러 만들기
 ```sh
@@ -18,7 +18,7 @@ rails g model comment body:string post_id:integer
 rails g model post title content:text
 rails g model comment body post_id:integer
 ```
-##관계 설정하기
+## 관계 설정하기
 app/model/post.rb
 ```ruby
 has_many :comments
