@@ -1,0 +1,8 @@
+<% @posts.each do |post| %>
+    글 제목 : <%= post.title %>
+    <br>
+    글 내용 : <%= post.content %>
+    <a href="/home/show/<%=post.id%>" >보러가기</a>
+    <hr>
+<% end %>
+<a href="/">글쓰러가기</a>
